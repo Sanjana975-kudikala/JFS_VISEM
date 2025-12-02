@@ -11,7 +11,7 @@
 
     <form id="regForm">
 
-        <label>Student Name:</label>
+        <label for="name">Student Name:</label>
         <input type="text" id="name" placeholder="Enter your name" required>
 
         <label>Select Subjects:</label>
@@ -52,11 +52,11 @@
 
         <button type="submit">Submit Registration</button>
     </form>
+
+    <div id="result"></div>
 </div>
+
 <script src="js/script.js"></script>
-<div class="messagebox" id="msgBox" style="margin-top: 60px;">
-    <p id="message"></p>
-    <button onclick="document.getElementById('msgBox').style.display='none'">OK</button>
-</div>
+
 </body>
 </html>

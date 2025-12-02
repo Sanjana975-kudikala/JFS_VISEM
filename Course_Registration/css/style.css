@@ -19,10 +19,17 @@ h2 {
     color: #333;
 }
 
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
 input[type="text"] {
     width: 95%;
     padding: 8px;
-    margin: 8px 0 15px 0;
+    margin: 5px 0 15px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -31,6 +38,11 @@ input[type="text"] {
     display: block;
     padding: 6px 0;
     cursor: pointer;
+    font-size: 14px;
+}
+
+.subject-list input[type="checkbox"] {
+    margin-right: 8px;
 }
 
 .total-box {
@@ -55,15 +67,15 @@ button {
 button:hover {
     background: #005fcc;
 }
-.messagebox {
-    display: none;
-    position: fixed;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -30%);
-    background: white;
-    border: 2px solid #0073ff;
-    padding: 20px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    z-index: 1000;
+
+/* Result box styling */
+#result {
+    margin-top: 15px;
+    white-space: pre-line;  /* shows \n from JS as new lines */
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px;
+    background: #f7f9ff;
+    border-radius: 5px;
+    border: 1px solid #dde3ff;
 }
