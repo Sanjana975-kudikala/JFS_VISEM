@@ -16,7 +16,7 @@
             text-align: center;
         }
         th {
-            background: lightblue;
+            background: rgb(218, 171, 111);
         }
         .batch-title {
             font-weight: bold;
@@ -30,6 +30,15 @@
 <h2>Upload CSV File</h2>
 <h3>Faculty-wise time table</h3>
 <input type="file" id="csvFile" accept=".csv">
+<select id="select_fac">
+    <option value="ALL">ALL</option>
+    <option value="KMY">KMY</option>
+    <option value="CVR">CVR</option>
+    <option value="XYZ">XYZ</option>
+    <option value="PQR">PQR</option>
+    <option value="STU">STU</option>
+
+</select>
 
 <div id="tables"></div>
 
