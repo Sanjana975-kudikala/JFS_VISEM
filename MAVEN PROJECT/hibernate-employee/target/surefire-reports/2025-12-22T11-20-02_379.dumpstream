@@ -1,0 +1,5 @@
+# Created at 2025-12-22T11:20:02.635
+Boot Manifest-JAR contains absolute paths in classpath 'D:\cdc_training\JAVA FULL STACK\JFS_VISEM\MAVEN PROJECT\hibernate-employee\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
